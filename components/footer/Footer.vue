@@ -32,10 +32,10 @@ const currentYear = new Date().getFullYear();
               <div class="border-t border-gray-800 py-4">
                 <h3 class="text-lg font-medium text-white">Ovde možete preuzeti potrebne obrasce:</h3>
                 <p class="mt-1 text-white">
-                  <a href="/pdf/aprresenje.pdf" target="_blank" rel="noopener noreferrer">PDV obrazac</a>
+                  <a :href="`/pdf/aprresenje.pdf`" target="_blank" rel="noopener noreferrer">PDV obrazac</a>
                 </p>
                 <p class="mt-1 text-white">
-                  <a href="/pdf/obrazac.pdf" target="_blank" rel="noopener noreferrer">Obrazac za identifikaciju</a>
+                  <a :href="`/pdf/obrazac.pdf`" target="_blank" rel="noopener noreferrer">Obrazac za identifikaciju</a>
                 </p>
                 <div class="mt-4">
                   <a href="https://www.facebook.com/amcnacional" target="_blank" class="flex items-center">
