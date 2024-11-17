@@ -15,11 +15,15 @@ export default defineNuxtConfig({
   ssr:true,
 
   nitro: {
-    baseURL: "https://smorrior.github.io/nacional-auto/",
+    baseURL: "/nacional-auto",
     prerender: {
       crawlLinks: true,
       failOnError: false
     }
+  },
+
+  router: {
+    base: '/nacional-auto/'
   },
 
   head: {
