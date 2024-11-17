@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ],
   
   app: {
-    baseURL: '/'
+    baseURL: '/nacional-auto'
   },
 
   css: ['~/assets/css/main.css'],
