@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2 {
+  font-family: "Protest Strike", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-btn {
+  @apply uppercase drop-shadow-lg rounded-md font-bold xl:text-lg text-sm bg-amber-400 text-black hover:bg-black hover:text-white py-4 px-8 xl:mt-8
+}
+.section {
+  @apply xl:py-12 md:px-16 py-4 px-4
+}
+.main-grid {
+  @apply grid xl:gap-20 md:gap-16 gap-4
+}
+.second-grid {
+  @apply grid xl:gap-8 gap-4
+}
+.h1-text {
+  @apply [text-shadow:_0_6px_6px_rgb(0_0_0_/_45%)] text-center xl:text-7xl text-4xl font-bold text-amber-400
+}
+.h2-text {
+  @apply xl:text-5xl text-2xl text-center
+}
+.h4-hero-text {
+  @apply [text-shadow:_0_6px_6px_rgb(0_0_0_/_45%)] text-center xl:text-3xl text-xl font-bold text-white xl:py-6 py-4
+}
+.h4-text {
+  @apply text-center xl:text-3xl text-base xl:font-bold font-semibold xl:py-6
+}
+.h6-text {
+  @apply xl:text-xl  font-normal xl:max-w-[1024px]
+}
+.center{
+  @apply flex flex-col items-center
+}
+.h4-flip-card{
+  @apply text-center xl:text-3xl md:text-xl text-sm xl:font-bold font-semibold xl:py-6 mt-4 xl:mt-0 tracking-tight
+}
+.small-text{
+  @apply xl:text-lg text-sm xl:font-semibold tracking-tight line-clamp-6 sm:line-clamp-none
+}
