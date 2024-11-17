@@ -9,7 +9,7 @@
     >
       <!-- Front Side -->
       <div class="flip-card-front shadow-lg bg-slate-100 flex flex-col items-center justify-center p-8">
-        <span v-html="icon" class="sm:w-1/5 w-1/3"></span>
+        
         <h4 class="h4-flip-card">{{ title }}</h4>
       </div>
       
