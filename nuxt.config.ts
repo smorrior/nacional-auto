@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   ssr:true,
 
   nitro: {
-    baseURL: "https://smorrior.github.io/nacional-auto",
+    baseURL: "https://smorrior.github.io/nacional-auto/",
     prerender: {
       crawlLinks: true,
       failOnError: false
