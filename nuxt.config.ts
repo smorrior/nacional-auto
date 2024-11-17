@@ -3,11 +3,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  
-  app: {
-    baseURL: '/nacional-auto'
-  },
-
   css: ['~/assets/css/main.css'],
 
   postcss: {
@@ -20,23 +15,26 @@ export default defineNuxtConfig({
   ssr:true,
 
   nitro: {
+    baseURL: "/",
     prerender: {
+      crawlLinks: true,
+      failOnError: false,
       routes: [
-        '/nacional-auto/o-nama',
-        '/nacional-auto/servis-japanskih-vozila',
-        '/nacional-auto/servis-japanskih-vozila/daihatsu',
-        '/nacional-auto/servis-japanskih-vozila/honda',
-        '/nacional-auto/servis-japanskih-vozila/isuzu',
-        '/nacional-auto/servis-japanskih-vozila/mazda',
-        '/nacional-auto/servis-japanskih-vozila/mitsubishi',
-        '/nacional-auto/servis-japanskih-vozila/nissan',
-        '/nacional-auto/servis-japanskih-vozila/subaru',
-        '/nacional-auto/servis-japanskih-vozila/suzuki',
-        '/nacional-auto/servis-japanskih-vozila/toyota',
-        '/nacional-auto/servis-korejskih-vozila',
-        '/nacional-auto/servis-korejskih-vozila/kia',
-        '/nacional-auto/servis-korejskih-vozila/hyundai',
-        '/nacional-auto/servis-korejskih-vozila/chevrolet',
+        '/o-nama',
+        '/servis-japanskih-vozila',
+        '/servis-japanskih-vozila/daihatsu',
+        '/servis-japanskih-vozila/honda',
+        '/servis-japanskih-vozila/isuzu',
+        '/servis-japanskih-vozila/mazda',
+        '/servis-japanskih-vozila/mitsubishi',
+        '/servis-japanskih-vozila/nissan',
+        '/servis-japanskih-vozila/subaru',
+        '/servis-japanskih-vozila/suzuki',
+        '/servis-japanskih-vozila/toyota',
+        '/servis-korejskih-vozila',
+        '/servis-korejskih-vozila/kia',
+        '/servis-korejskih-vozila/hyundai',
+        '/servis-korejskih-vozila/chevrolet',
       ]
     }
   },
